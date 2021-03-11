@@ -1,8 +1,10 @@
-<h1 align="center">plugin-twilio-infra</h1>
-<p align="center">Plugin for the <a href="https://github.com/twilio/twilio-cli">Twilio CLI</a> to integrate Pulumi and Twilio in order to create, deploy, and manage Twilio infrastructure using code.</p>
-<p align="center">
-<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
-<hr>
+<div id="intro">
+  <h1>plugin-twilio-infra</h1>
+  <a href="https://www.twilio.com"><img  src="https://d3k2f0s3vqqs9o.cloudfront.net/media/final/6aee06b2-21a8-4613-9c70-9441dca13d2c/webimage-C8DB9280-3BDD-432D-AD472E92F7CE3D11.png"  alt="Powered by Twilio" width="300"/></a>
+  <p>Plugin for the <a href="https://github.com/twilio/twilio-cli">Twilio CLI</a> to integrate Pulumi and Twilio in order to create, deploy, and manage Twilio    infrastructure using code.</p>
+  <a><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <hr>
+</div>
 
 This plugin adds the `infra` command to the [Twilio CLI](https://github.com/twilio/twilio-cli). It integrates Pulumi with Twilio and consists of subcommands that let you create, deploy, and manage Twilio infrastructure via code.
 
@@ -64,7 +66,11 @@ USAGE
 
 To see the usage details and options for each subcommand, run `twilio infra:<subcommand> --help`.
 
-## Contributing
+## Learn from Examples
+
+For a list of repository templates that show you how to use Pulumi for deploying your Twilio projects, see the [Examples repo](https://github.com/twilio-infra-as-code/examples).
+
+## Contributions
 
 This project welcomes contributions from the community. Please see the [`CONTRIBUTING.md`](CONTRIBUTING.md) file for more details.
 
